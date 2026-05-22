@@ -15,3 +15,5 @@
 @import 'components/title';
 @import 'components/board';
 @import 'components/ladder';
+@import 'components/snake';
+@import 'components/game';

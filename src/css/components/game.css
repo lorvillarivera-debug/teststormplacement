@@ -1,0 +1,65 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+.game__roll {
+    align-self: flex-start;
+    padding: 0.5rem 1.25rem;
+    font: inherit;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.game__roll:disabled {
+    background: #888;
+    cursor: default;
+}
+.game__status {
+    display: flex;
+    gap: 1rem;
+}
+.game__winner {
+    color: #2a8;
+    font-weight: 600;
+}
+.game__players {
+    display: flex;
+    gap: 1.5rem;
+}
+.game__player {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.player {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.player--1 {
+    background: crimson;
+}
+.player--2 {
+    background: dodgerblue;
+}
+.board__cell .player {
+    position: absolute;
+    bottom: 2px;
+    z-index: 10;
+}
+.board__cell .player--1 {
+    left: 2px;
+}
+.board__cell .player--2 {
+    right: 2px;
+}
+.snake {
+    opacity: 0.55;
+}
