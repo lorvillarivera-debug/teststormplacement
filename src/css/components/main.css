@@ -1,0 +1,32 @@
+.main {
+    width: 100%;
+}
+
+.textbox{
+    padding: 1rem;
+    width:120px;
+    border-radius:12px 0 0 12px
+}
+
+.label{
+    margin-right: 1rem; 
+    font-weight: bold;
+}
+
+.button{
+    padding : 1rem;
+    background-color: black;
+    color:aliceblue;
+    border-radius:0 12px 12px 0
+}
+
+.pagetitle{
+    font-size:3rem;
+    /* margin-right:auto; */
+}
+
+.pagesetting{
+    flex: 0 0 auto;
+    width:auto;
+    margin-left:auto;
+}

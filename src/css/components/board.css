@@ -1,0 +1,24 @@
+.board {
+    width: 100%;
+    position : relative;
+    /* gap: 8px; */
+    margin-top: 3rem;
+
+}
+.board__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+}
+.board__row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.board__cell {
+    aspect-ratio: 1/1;
+    /* padding: 3rem; */
+    border: 1px solid #666;
+}

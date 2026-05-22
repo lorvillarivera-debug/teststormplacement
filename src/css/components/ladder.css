@@ -1,0 +1,7 @@
+.ladder{
+    position:absolute;
+    top: 0;
+    left:0;
+    transform-origin: top left;
+    /* scale: 0.3 1; */
+}

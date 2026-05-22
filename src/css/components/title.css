@@ -1,0 +1,19 @@
+.title__heading {
+    font-size: 2rem;
+    margin-bottom: .50rem;
+}
+.title__heading--lg {
+    font-size: 5rem;
+}
+
+.My_subtitle {
+    font-size: 2rem;
+}
+
+.ladder1 {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    border : 1px solid red;
+
+}
